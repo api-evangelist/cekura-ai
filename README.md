@@ -64,23 +64,147 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Cekura is a company surfaced via the API Evangelist harvest backlog (source: new-submission) and added to the network as a stub for full-pipeline profiling.
+Cekura provides automated quality assurance for voice AI and chat AI agents. Their platform lets developers test, monitor, and continuously improve voice agents by simulating real production calls, identifying issues, and suggesting fixes. Features include benchmark comparisons across leading platforms, detailed metric labs, observability tracing, and integrations with partners like LiveKit, Cisco, and ElevenLabs. Cekura aims to accelerate agent deployment, ensuring reliability and performance before going live.
 
-**Areas:** Company
+**Areas:** Company · VoiceAI · QA · Testing · Benchmarking
 
 ## Cekura on APIs.io
 
 Everything profiled for Cekura is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/cekura-ai/](https://apis.io/providers/cekura-ai/)** — or go straight to one of the APIs or properties below.
+
+### APIs (13)
+
+- [Cekura AI Agents API](https://apis.io/apis/cekura-ai/cekura-ai-ai-agents-api/) — The AI Agents API from Cekura — 1 operation(s) for ai agents.
+- [Cekura Call Logs API](https://apis.io/apis/cekura-ai/cekura-ai-call-logs-api/) — The Call Logs API from Cekura — 2 operation(s) for call logs.
+- [Cekura Dashboards API](https://apis.io/apis/cekura-ai/cekura-ai-dashboards-api/) — The dashboards API from Cekura — 9 operation(s) for dashboards.
+- [Cekura Evaluators API](https://apis.io/apis/cekura-ai/cekura-ai-evaluators-api/) — The Evaluators API from Cekura — 34 operation(s) for evaluators.
+- [Cekura Metrics API](https://apis.io/apis/cekura-ai/cekura-ai-metrics-api/) — The Metrics API from Cekura — 2 operation(s) for metrics.
+- [Cekura Observability API](https://apis.io/apis/cekura-ai/cekura-ai-observability-api/) — The Observability API from Cekura — 47 operation(s) for observability.
+- [Cekura Results API](https://apis.io/apis/cekura-ai/cekura-ai-results-api/) — The Results API from Cekura — 17 operation(s) for results.
+- [Cekura Runs API](https://apis.io/apis/cekura-ai/cekura-ai-runs-api/) — The Runs API from Cekura — 7 operation(s) for runs.
+- [Cekura Scenarios API](https://apis.io/apis/cekura-ai/cekura-ai-scenarios-api/) — The Scenarios API from Cekura — 6 operation(s) for scenarios.
+- [Cekura Schedules API](https://apis.io/apis/cekura-ai/cekura-ai-schedules-api/) — The Schedules API from Cekura — 2 operation(s) for schedules.
+- [Cekura Slack API](https://apis.io/apis/cekura-ai/cekura-ai-slack-api/) — The slack API from Cekura — 1 operation(s) for slack.
+- [Cekura Test Framework API](https://apis.io/apis/cekura-ai/cekura-ai-test-framework-api/) — The test_framework API from Cekura — 128 operation(s) for test_framework.
+- [Cekura User API](https://apis.io/apis/cekura-ai/cekura-ai-user-api/) — The user API from Cekura — 8 operation(s) for user.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### AsyncAPI (1)
+
+Event-driven and webhook contracts.
+
+- [Cekura Ai Webhooks](https://apis.io/asyncapis/cekura-ai/cekura-ai-webhooks/)
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Cekura Ai Agentic Access](https://apis.io/agentic-access/cekura-ai/cekura-ai-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [Organization](https://apis.io/schemas/cekura-ai/cekura-ai-organization/)
+- [PatchedProject](https://apis.io/schemas/cekura-ai/cekura-ai-patched-project/)
+- [Project](https://apis.io/schemas/cekura-ai/cekura-ai-project/)
+- [ResultDetailV2](https://apis.io/schemas/cekura-ai/cekura-ai-result-detail-v2/)
+- [SchemaCombinedResultsReport](https://apis.io/schemas/cekura-ai/cekura-ai-schema-combined-results-report/)
+- [SchemaScenario](https://apis.io/schemas/cekura-ai/cekura-ai-schema-scenario/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Cekura Ai Context](https://apis.io/jsonld/cekura-ai/cekura-ai-context/)
+
+#### Overlays (1)
+
+OpenAPI overlays, including conversational phrasing for each operation.
+
+- [Cekura Ai Openapi Overlay](https://apis.io/overlays/cekura-ai/cekura-ai-openapi-overlay/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Cekura API Rules](https://apis.io/rules/cekura-ai/cekura-ai-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Cekura Ai Authentication](https://apis.io/security/cekura-ai/cekura-ai-authentication/)
+- [Cekura Ai Domain Security](https://apis.io/security/cekura-ai/cekura-ai-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Cekura Ai Plans Pricing](https://apis.io/plans/cekura-ai/cekura-ai-plans-pricing/)
 
 ## Where to find this API
 
 Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
 - [Website](https://cekura.ai)
+- [Documentation](https://docs.cekura.ai/documentation/introduction)
+- [Getting started](https://www.cekura.ai/pricing)
+- [API reference](https://docs.cekura.ai/documentation/introduction)
+- [Pricing](https://www.cekura.ai/pricing)
+- [Sign up](https://dashboard.cekura.ai/sign-up)
+- [Support](https://www.cekura.ai/contact)
+- [Changelog](https://www.cekura.ai/changelog)
+- [Blog](https://www.cekura.ai/blogs)
+- [Terms of service](https://www.cekura.ai/terms-of-service)
+- [Privacy policy](https://www.cekura.ai/privacy-policy)
+- [GitHub](https://github.com/cekura-ai)
 
 ## API Evangelist rating
 
-Not yet rated. See [apis.io/providers/cekura-ai/](https://apis.io/providers/cekura-ai/).
+**Kin Score 65.1** — strong · rubric 0.25.0 · scored 2026-10-29
+
+| Facet | Score |
+|---|---|
+| Discoverability | 65.0 |
+| Contract quality | 66.4 |
+| Contract governance | 79.1 |
+| Operational transparency | 28.9 |
+| Developer ergonomics | 63.6 |
+| Access clarity | 73.2 |
+
+**Agent readiness 56.3** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | derived (partial credit) |
+| OpenAPI Examples | partial |
+| Rate Limit Signal | — |
+| Event Surface Described | unknown |
+| Agent Skills | unknown |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | conformant |
+| Dry Run Mode | yes |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | — |
+| Operation Distinctiveness | — |
+
+**Regulatory alignment 24.5** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/cekura-ai/](https://apis.io/providers/cekura-ai/).
 
 ## How this profile is made
 
